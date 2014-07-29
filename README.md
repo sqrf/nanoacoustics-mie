@@ -40,32 +40,37 @@ Also you can see in every running of the code data as the resonance wavelength v
 
 Theory
 ================= 
-En el caso de una nanopartícula met\'alica, se asumir\'a como  esf\'erica por simplicidad y simetr\'ia. Adem\'as esta nanopart\'icula se considera aislada, sin part\'iculas vecinas pr\'oximas, evitando as\'i contribuciones \'opticas y mec\'anicas. Lo anterior est\'a en concordancia con Broyer [1]( http://www.ncbi.nlm.nih.gov/pubmed/20411965), donde se reporta que la concentraci\'on de nanopart\'iculas es lo suficientemente baja en los vol\'umenes de sustraro empleados.
+When electromagnetic radiation interact with matter occurs different things depending if it is a metal or a dielectric material. In this case we consider metalic nanoparticles and when electromagnetic radiation interacts with them the electromagnetic field is in some part scattered and in the rest is absorbed. This phenomenon is analogous to the classic case of a a electromagnetic wave interacting with a  thin metallic plate. In a plate the electromagnetic radiation is in part reflected and in part transmited, and the amounts that measure it are the Fresnel coefficients. In the next  we propose for particles a optical transmission coefficient with help of the scattering cross section of Mie's Theory:
 
-\bigskip
-Hacer un c\'alculo similar al de la trasmitividad o transmisi\'on \'optica para una esfera no resulta tan trivial como para una placa.  Cuando una onda electromagn\'etica incide sobre una esfera met\'alica en vez de producirse reflexi\'on y trasmisi\'on de la onda se tiene  absorbci\'on  y dispersi\'on.
-Al estudio del caso de interacci\'on de radiaci\'on electromagn\'etica se le conoce propiamente como teor\'ia de Mie  la cual se abordad\'o en detalle en el capitulo 4. La teoría de Mie como tal, no proporciona una expresi\'on para la trasmisi\'on \'optica sino para la secci\'on eficaz de absorci\'on ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Csigma_%7Babs%7D )y dispersi\'on  ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Csigma_%7Bscat%7D)  de radiaci\'on electromagn\'etica.
+ ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Csigma_%7Bscat%7D)  
+ 
+
+It is important to establish that although in experimental processes this particles are not perfect spheres, in this theoritcal model we consider them as perfect spheres which imply symetry and simplifies the calculations. This model is based in a single particle embed in a medium as glass. To garantize a single particle is really hard, so the close case is experimentally work whit low concentrations of particles, so that they are so far each other.
 
 
-Para obtener una expresi\'on gen\'erica de la transmisi\'on \'optica se tiene en cuenta que \'esta se puede ver como el cociente de comparar la intensidad de la energa electromagntica saliente de un material con la energa inicial incidente
+
+To get an expression for the optical transmission we consider the rate of the incident electromagnetic energy intensity of field and the outgoing intensity.
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7BI%28%5Comega%29%7D%7BI_%7Binc%7D%28%5Comega%29%7D)
 
- y considerando por otro la relacin existente entre las secciones eficaces y las intensidades de energa electromagntica ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20I%28%5Comega%29%3D%5Cfrac%7BI_%7Binc%7D%7D%7BA%7D%5Csigma_%7Bscat%7D%3D%5Cfrac%7BI_%7Binc%7D%7D%7B%5Cpi%20r%5E2%7D%5Csigma_%7Bscat%7D)   se tiene que la transmisi\'on \'optica  es proporcional a una seccin eficaz:
+ also taking into account the relationship between the cross section and the intensity of electromagnetic energy 
+  ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20I%28%5Comega%29%3D%5Cfrac%7BI_%7Binc%7D%7D%7BA%7D%5Csigma_%7Bscat%7D%3D%5Cfrac%7BI_%7Binc%7D%7D%7B%5Cpi%20r%5E2%7D%5Csigma_%7Bscat%7D).
+  
+  In the last we realize that the optical transmission T is proportional to a cross section :
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7BI%28%5Comega%29%7D%7BI_%7Binc%7D%28%5Comega%29%7D%3D%5Cfrac%7B%5Csigma_%7Bscat%7D%7D%7B%5Cpi%20r_0%5E2%7D) 
 
 In this way we have explicitly that:
 
-![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7BI%28%5Comega%29%7D%7BI_%7Binc%7D%28%5Comega%29%7D%3D%5Cfrac%7B%201%7D%7B%5Cpi%20r_0%5E2%7D%20%5Cfrac%7B2%5Cpi%7D%7Bk%5E2%7D%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%282n&plus;1%29%5Cleft%28%20%7C%20a_%7Bn%7D%7C%5E2&plus;%7C%20b_%7Bn%7D%7C%5E2%5Cright%29)
+![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7BI%28%5Comega%29%7D%7BI_%7Binc%7D%28%5Comega%29%7D%3D%5Cfrac%7B%201%7D%7B%5Cpi%20r_0%5E2%7D%20%5Cfrac%7B2%5Cpi%7D%7Bk%5E2%7D%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%282n&plus;1%29%5Cleft%28%20%7C%20a_%7Bn%7D%7C%5E2&plus;%7C%20b_%7Bn%7D%7C%5E2%5Cright%29).
 
-En la expresiones anteriores es de notar que la intensidad y por tanto la transmisi\'on \'optica son dependientes de la frecuencia del campo electromagntico incidente pero estas no evolucionan en el tiempo, por tanto tal transmisi\'on corresponde al caso de una esfera est\'atica dispersando luz. 
-  
-  \bigskip
-  
-  La evolucin temporal se  logra considerando un radio oscilante de la forma ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r%28t%29%3Dr_0&plus;u%28t%29) donde ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29) es el desplazamiento radial, ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r_0) es el radio en reposo y se relaciona con la expansi\'on y contracci\'on de la esfera. Asimismo ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29)  es soluci\'on de la ecuaci\'on de Navier aplicada a una esfera el\'astica en un medio isotr\'opico.
-  En este punto es importante establecer al igual que con la placa conductoras regiones en donde se solucionara el problema. Las cantidades relacionadas con el interior de la esfera se denotaran con el sub\'indice $I$ de interior y las relacionadas con el exterior se denotaran con el sub\'indice $E$. De esta forma se tiene que el desplazamiento $u$ en la parte interna es ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u_I) y el desplazamiento en la parte externa es ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u_E). 
-  
+In the las equations we note that intensity of electromagnetic energy and hence the optical transmission are dependet of the incident electromagnetic field frequency  but they are not time dependent. That transmission corresponds to the case of a static sphere.
+
+To build a time dependent transmission we consider not a static sphere radius but a oscillating radius as:
+![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r%28t%29%3Dr_0&plus;u%28t%29) where ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29) is the radial displacement , ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r_0) is the rest radius.
+Also ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29) is the transversal a solution of the Navier equation for a elastic sphere in a isotropic elastic medium.
+
+
 Solving the navier equation for a elastic sphere
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%5Cmu%20%5Cnabla%5E2%20%5Cvec%7Bu%7D&plus;%5Cleft%28%20%5Clambda&plus;2%5Cmu%20%5Cright%29%20%5Cnabla%20%5Cleft%28%5Cnabla%20%5Ccdot%20%5Cvec%7Bu%7D%20%5Cright%29%3D%20%5Crho%20%5Cfrac%7B%5Cpartial%5E2%20%5Cvec%7Bu%7D%7D%7B%5Cpartial%20t%5E2%7D)
@@ -74,9 +79,12 @@ we find that the solution for the time dependen radius is
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r%28t%29%3D%20r_0%20-j_1%28s%29e%5E%7B-i%5Comega_%7Bvib%7Dt%7Dk%3Dr_0%20&plus;%5Cleft%28%20%5Cfrac%7Bcos%28s%29%7D%7Bs%7D-%5Cfrac%7Bsin%28s%29%7D%7Bs%5E2%7D%5Cright%29e%5E%7B-i%5Comega_%7Bvib%7Dt%7D)
 
-donde ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20s) es una cantidad compleja a determinarse por las condiciones de frontera, ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20k) es el vector de onda de la vibraci\'on ac\'ustica producida, ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%24%5Comega_%7Bvib%7D%24) es la frecuencia de la vibraci\'on, ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%24C_%7BLI%7D%24) es la velocidad longitudinal del sonido en el interior de la esfera (velocidad del metal en cuesti\'on)	y ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20j_1) es la funci\'on de Bessel esf\'erica de primera clase de orden uno que se escribe expl\'icitamente en la segunda igualdad.
+where ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20s)  is a complex number determined by the boundary conditions ( continuity in displacement and radial stress in Navier equation), ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20k)  is the wave vector of the acoustic wave produced, ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%24%5Comega_%7Bvib%7D%24) is the frequency of the acoustic vibration, ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20%24C_%7BLI%7D%24) is the longitudinal velocity of the sound inside the nanoparticle and ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20j_1) is the first kind Bessel and fist order Bessel function.
+
+Substituting the time dependent radius 
  
- Sustituyendo el radio dependiente del tiempo ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r%28t%29) en lugar del radio est\'atico ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r_0)  en la expresi\'on for transmission 
+ ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r%28t%29) instead the static radius
+ ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r_0)  in the expression for transmission we have then
  
  ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7B%201%7D%7B%5Cleft%28%20r_0%20&plus;%5Cleft%28%20%5Cfrac%7Bcos%28s%29%7D%7Bs%7D-%5Cfrac%7Bsin%28s%29%7D%7Bs%5E2%7D%5Cright%29e%5E%7B-i%5Comega_%7Bvib%7Dt%7D%5Cfrac%7B%5Comega_%7Bvib%7D%7D%7BC_%7BLI%7D%7D%5Cright%29%5E2%7D%20%5Cfrac%7B2%7D%7Bk%5E2%7D%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%282n&plus;1%29%5Cleft%28%20%7C%20a_%7Bn%7D%7C%5E2&plus;%7C%20b_%7Bn%7D%7C%5E2%5Cright%29)
  
@@ -84,8 +92,7 @@ donde ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20s) es una cant
  
  ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3DT%28r_0%2C%20t%2C%20C_%7BLI%7D%2CC_%7BTE%7D%2CC_%7BLE%7D%2CC_%7BTE%20%7D%2C%5Crho_%7BI%7D%2C%5Crho_%7BE%7D%2CN_E%2C%20N_I%29)
  
- 
- la dependencia en los \'indices de refracci\'on ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20N_I) (interior de la nanopart\'icula) y ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20N_E) (exterior de la nanopart\'icula) se tiene en los coeficientes ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20a_n%3Da_n%28N%29) y ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20b_n%3Db_n%28N%29%24),  donde
+ There's is also a refraction index dependence  ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20N_I) (inside of nanoparticle) and ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20N_E) (exterior of nanoparticle) which appear in the  coefficients ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20a_n%3Da_n%28N%29) and ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20b_n%3Db_n%28N%29%24),  where
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20N%3D%5Cfrac%7BN_I%7D%7BN_E%7D)
  are result of Mie's theory.
