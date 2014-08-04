@@ -64,7 +64,7 @@ In this way we have explicitly that:
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7BI%28%5Comega%29%7D%7BI_%7Binc%7D%28%5Comega%29%7D%3D%5Cfrac%7B%201%7D%7B%5Cpi%20r_0%5E2%7D%20%5Cfrac%7B2%5Cpi%7D%7Bk%5E2%7D%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%282n&plus;1%29%5Cleft%28%20%7C%20a_%7Bn%7D%7C%5E2&plus;%7C%20b_%7Bn%7D%7C%5E2%5Cright%29).
 
-In the las equations we note that intensity of electromagnetic energy and hence the optical transmission are dependet of the incident electromagnetic field frequency  but they are not time dependent. That transmission corresponds to the case of a static sphere.
+In the last equations we note that intensity of electromagnetic energy and hence the optical transmission are dependet of the incident electromagnetic field frequency  but they are not time dependent. That transmission corresponds to the case of a static sphere.
 
 To build a time dependent transmission we consider not a static sphere radius but a oscillating radius as:
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r%28t%29%3Dr_0&plus;u%28t%29) where ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29) is the radial displacement , ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20r_0) is the rest radius.
