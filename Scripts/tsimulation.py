@@ -91,13 +91,13 @@ class Tsimulation:
         ############################saving list
 
         filename = 'time'
-        path_to_file = pjoin("/Users/RAFA/Documents/MieGit/nanoacoustics-mie/output", filename)
+        path_to_file = pjoin("./output/", filename)
         f = open(path_to_file, "w")
         f.write("\n".join(map(lambda x: str(x), tlist)))
         f.close()
         ##
         filename = 'T(time)'
-        path_to_file = pjoin("/Users/RAFA/Documents/MieGit/nanoacoustics-mie/output", filename)
+        path_to_file = pjoin("./output/", filename)
         f = open(path_to_file, "w")
         ylist = (Qlist - mdq.max_T)/mdq.max_T
         f.write("\n".join(map(lambda x: str(x), ylist)))
@@ -112,7 +112,7 @@ class Tsimulation:
         ylabel('$\Delta T/T$')
         grid()
         filename = "T(time) 'plot' "
-        path_to_file = pjoin("/Users/RAFA/Documents/MieGit/nanoacoustics-mie/output", filename)
+        path_to_file = pjoin("./output/", filename)
         savefig(path_to_file, format="png")
         show()
         ######
