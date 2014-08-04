@@ -54,7 +54,7 @@ To get an expression for the optical transmission we consider the rate of the in
 ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20T%3D%5Cfrac%7BI%28%5Comega%29%7D%7BI_%7Binc%7D%28%5Comega%29%7D)
 
  also taking into account the relationship between the cross section and the intensity of electromagnetic energy 
-  ![equation](http://latex.codecogs.com/gif.latex?%5Cinline%20I%28%5Comega%29%3D%5Cfrac%7BI_%7Binc%7D%7D%7BA%7D%5Csigma_%7Bscat%7D%3D%5Cfrac%7BI_%7Binc%7D%7D%7B%5Cpi%20r%5E2%7D%5Csigma_%7Bscat%7D).
+  ![equation](http://latex.codecogs.com/gif.latex?I%28%5Comega%29%3D%5Cfrac%7BI_%7Binc%7D%7D%7BA%7D%5Csigma_%7Bscat%7D%3D%5Cfrac%7BI_%7Binc%7D%7D%7B%5Cpi%20r_0%5E2%7D%5Csigma_%7Bscat%7D).
   
   In the last we realize that the optical transmission T is proportional to a cross section :
 
