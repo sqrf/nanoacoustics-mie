@@ -67,7 +67,7 @@ class Mdq:
 
 
         filename = 'lambda'
-        path_to_file = pjoin("/Users/RAFA/Documents/MieGit/nanoacoustics-mie/output", filename)
+        path_to_file = pjoin("./output/", filename)
         f = open(path_to_file, "w")
         f.write("\n".join(map(lambda x: str(x), self.l)))
         f.close()
@@ -76,7 +76,7 @@ class Mdq:
 
         ##
         filename = 'T(lambda)'
-        path_to_file = pjoin("/Users/RAFA/Documents/MieGit/nanoacoustics-mie/output", filename)
+        path_to_file = pjoin("./output/", filename)
         f = open(path_to_file, "w")
         f.write("\n".join(map(lambda x: str(x), self.Q_scalist_sim)))
         f.close()
@@ -94,7 +94,7 @@ class Mdq:
         grid()
         #legend()
         filename = "T(lambda) 'plot' "
-        path_to_file = pjoin("/Users/RAFA/Documents/MieGit/nanoacoustics-mie/output", filename)
+        path_to_file = pjoin("./output", filename)
         savefig(path_to_file, format="png")
         show()
 
