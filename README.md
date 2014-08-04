@@ -12,7 +12,7 @@ This program is designed to calculate the frequency of the acoustic vibrations o
 Requirements
 ================= 
 
-You must have installed python in your PC or Unix based OS. It's recomendable to have some Integrated Development Environment (IDE) used for programming in Python such as PyCharm.  It provides code analysis, graphical debugger, integrated unit tester.
+You must have installed Python in your PC or Unix based OS, in specific the  Python- [Anaconda](https://store.continuum.io/cshop/anaconda/)  2.7 distribution . It's recomendable to have some Integrated Development Environment (IDE) used for programming in Python such as PyCharm.  It provides code analysis, graphical debugger, integrated unit tester.
  
  Using nanoacustics
 ================= 
@@ -30,7 +30,7 @@ param = Parameters(metals.Pt, medios.glass, 0.01, 0.75)
 ```
 
 It's important to note that the metal and media always are written after the dot of the class metals and media.
-When the script `runVIBRATION` is run this will display a first graph that corresponds to the wavelength dependent Transmission and where you can see the position of the plasmonic resonance. When you close this plot, automatically it will be displayed the a second plot corresponding to the vibration. This last plot shows the time dependendent transmission and from this you can see the time domain of the vibration. This plots and their corresponding data are saved in the folder `output`. And every time you run the code, the data and plots will be updated in this folder.
+When the script `runVIBRATION` is run this will display a first graph that corresponds to the wavelength dependent Transmission and where you can see the position of the plasmonic resonance. When you close this plot, automatically it will be displayed the a second plot corresponding to the vibration. This last plot shows the time dependendent transmission and from this you can see the time domain of the vibration. This plots and their corresponding data are saved in the folder `output` that is located inside the `Scripts` folder. And every time you run the code, the data and plots will be updated in this folder.
 Also you can see in every running of the code data as the resonance wavelength value, the complex frequency and their magnitude, real part, imaginary part and the effective damping time of the vibration.
 
 
